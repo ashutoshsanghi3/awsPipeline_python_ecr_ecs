@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:235494798709:task-definition/py-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:314146295673:task-definition/python-task-def:1"
         LoadBalancerInfo:
-          ContainerName: "karthik-y"
+          ContainerName: "python-cont"
           ContainerPort: 5000
